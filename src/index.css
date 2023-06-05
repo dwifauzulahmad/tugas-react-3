@@ -1,0 +1,29 @@
+header {
+    > h1 {
+        text-align: center;
+    }
+}
+
+.product {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding: 50px;
+  margin : auto;
+  justify-content: space-around;
+  margin-left : 25%;
+  background-color: black;
+
+    > a {
+      background-color: white;
+      margin: 10px 10px 10px 10px;
+      width: 240px;
+
+      > h3 {
+        margin-left: 20px;
+      }
+
+      > h4 {
+        margin-left: 20px;
+      }
+    }  
+}
